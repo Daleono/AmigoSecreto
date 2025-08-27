@@ -4,4 +4,15 @@ function creaArray(){
     return amigos;
 }
 
+function agregarAmigo(){
+    amigo = document.getElementById("amigo");
+    if(amigo.value != ""){
+        amigos.push(amigo.value);
+        document.getElementById("amigo").value = "";
+    }
+    else
+        alert("Por favor, inserte un nombre.");
+    console.log(amigos);
+}
+
 let amigos = creaArray();
