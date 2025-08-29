@@ -21,4 +21,12 @@ function mostrarAmigos(){
     lista.innerHTML = mostrar;
 }
 
+function sortearAmigo(){
+    if(amigos != null){
+        let azar = Math.floor(amigos.length*Math.random());
+        amigoSecreto = document.getElementById("resultado");
+        amigoSecreto.innerHTML = amigos[azar];
+    }
+}
+
 var amigos = [];
