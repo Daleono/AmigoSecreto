@@ -7,3 +7,5 @@
 
 <h2>Estado del proyecto</h2>
 <p>En Construcción pero funcional, a punto de finalizar.</p>
+
+<img width="1739" height="780" alt="imagen" src="https://github.com/user-attachments/assets/e44d7980-fd2b-4b72-b5db-020725b64cb8" />
